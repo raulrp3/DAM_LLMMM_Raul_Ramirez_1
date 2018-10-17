@@ -1,0 +1,131 @@
+*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+		h1{
+			text-align: center;
+			color: #06193C;
+			margin-top: 0.5em;
+		}
+		a{
+			text-decoration: none;
+			border: 1px solid black;
+			padding: 0.25em;
+			border-radius: 0.5em;
+		}
+		h2{
+			margin-left: 1em;
+			color: #4AAD60;
+			margin-top: 1em;
+		}
+		img{
+			margin-left: 4em;
+			margin-bottom: 0.5em;
+			border: 1px solid #D8D5D5;
+		}
+		address{
+			border: 1px solid black;
+			padding: 0.5em;
+			background-color: #06193C;
+		}
+		address strong{
+			background-color: #06193C;
+			color: #8DB5E0;
+			margin-left: 0.5em;
+		}
+		address a{
+			border: 0px;
+			color: #8DB5E0;
+		}
+		pre{
+			margin-bottom: 1em;
+			margin-left: 4em;
+		}
+		p{
+			margin-top: 0.25em;
+			margin-bottom: 1em;
+			padding: 0.5em;
+		}
+		.next-page{
+			color: #8DB5E0;
+			border-color: #8DB5E0;
+			border-width: 2px;
+			background-color: #06193C;
+		}
+		.next-page:hover{
+			font-size: 1.1em;
+		}
+		#main{
+			background-color: #F8F6CA;
+			border: 1px solid #D8D5D5;
+		}
+		.right-align{
+			text-align: right;
+			margin-bottom: 0em;
+			margin-right: 0.5em;
+			margin-top: 1em;
+		}
+		.img-standart{
+			width: 630px;
+			height: 354px;
+		}
+		.article{
+			color: #000000;
+			margin-left: 0.5em;
+			background-color: #FFFFDF;
+		}
+		.article:hover{
+			color: #337201;
+			border-color: #337201;
+		}
+		#nav{
+			list-style-type: none;
+			text-align: center;
+			margin-top: 1em;
+		}
+		#nav li{
+			display: inline-block;
+			border: 1px solid grey;
+			background-color: #337201;
+		}
+		#nav li a{
+			border: 0px;
+			color: white;
+			padding: 0.5em;
+			display: block;
+		}
+		li a:hover{
+			font-size: 1.1em;
+		}
+		.enlace-imagen{
+			border: 0px;
+		}
+		ol{
+			margin-left: 3em;
+		}
+		#list h2{
+			margin-bottom: 0.5em;
+		}
+		#list ul{
+			list-style-type: none;
+			margin-left: 3em;
+		}
+		#list ol{
+			margin-left: 3em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+		.elemento-principal{
+			background-color: #06193C;
+			color: white;
+			font-size: 1.15em;
+			padding: 0.25em;
+			border-radius: 0.5em;
+		}

@@ -3,130 +3,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>SPORT NEWS</title>
-		<link rel="stylesheet" href="Estilos.css">
-		<style type="text/css">
-		*{
-			box-sizing: border-box;
-			margin: 0;
-			padding: 0;
-		}
-		body{
-			width: 80%;
-			margin-left: auto;
-			margin-right: auto;
-
-		}
-		h1{
-			text-align: center;
-			color: #06193C;
-			margin-top: 0.5em;
-		}
-		a{
-			text-decoration: none;
-			border: 1px solid black;
-			padding: 0.25em;
-			border-radius: 0.5em;
-		}
-		h2{
-			margin-left: 1em;
-			color: #4AAD60;
-			margin-top: 1em;
-		}
-		img{
-			margin-left: 4em;
-			margin-bottom: 0.5em;
-			border: 1px solid #D8D5D5;
-		}
-		address{
-			border: 1px solid black;
-			padding: 0.5em;
-			background-color: #06193C;
-		}
-		address strong{
-			background-color: #06193C;
-			color: #8DB5E0;
-			margin-left: 0.5em;
-		}
-		address a{
-			border: 0px;
-			color: #8DB5E0;
-		}
-		pre{
-			margin-bottom: 1em;
-			margin-left: 4em;
-		}
-		p{
-			margin-top: 0.25em;
-			margin-bottom: 1em;
-			padding: 0.5em;
-		}
-		.next-page{
-			color: #8DB5E0;
-			border-color: #8DB5E0;
-			border-width: 2px;
-			background-color: #06193C;
-		}
-		.next-page:hover{
-			font-size: 1.1em;
-		}
-		#main{
-			background-color: #F8F6CA;
-			border: 1px solid #D8D5D5;
-		}
-		.right-align{
-			text-align: right;
-			margin-bottom: 0em;
-			margin-right: 0.5em;
-			margin-top: 1em;
-		}
-		#img-benzema{
-			width: 630px;
-			height: 354px;
-		}
-		.article{
-			color: #000000;
-			margin-left: 0.5em;
-			background-color: #FFFFDF;
-		}
-		.article:hover{
-			color: #337201;
-			border-color: #337201;
-		}
-		ul{
-			list-style-type: none;
-			text-align: center;
-			margin-top: 1em;
-		}
-		ul li{
-			display: inline-block;
-			border: 1px solid grey;
-			background-color: #337201;
-		}
-		li a{
-			border: 0px;
-			color: white;
-			padding: 0.5em;
-			display: block;
-		}
-		li a:hover{
-			font-size: 1.1em;
-		}
-		.enlace-imagen{
-			border: 0px;
-		}
-		ol{
-			margin-left: 3em;
-		}
+		<link rel="stylesheet" typpe="text/css" href="css/Estilos.css">
 	</style>
 	</head>
 	<body>
 		<div id="main">
 			<h1 id="titulo-principal">LIGA SANTANDER</h1>
 			<hr>
-			<ul>
+			<ul id="nav">
 				<li><a href="#noticias-benzema">Noticias de Benzema</a></li>
 				<li><a href="#noticias-keylor">Noticias de Keylor Navas</a></li>
 				<li><a href="#balon-de-oro">Noticias del balón de oro</a></li>
+				<li><a href="Internacional.html">Noticias internacionales</a></li>
 			</ul>
 			<div>
 				<h2>La leyenda del fondo de armario de Barcelona.</h2>
@@ -139,7 +27,7 @@
 				<i><a href="http://www.marca.com/futbol/real-madrid/2018/10/02/5bb35d2246163f7d608b462e.html" target="_blank" class="article"><strong>Leer artículo completo...</strong></a></i>
 				<br>
 				<br>
-				<img src="keylor.jpg" alt="Imagen de Keylor Navas">
+				<img src="img/keylor.jpg" alt="Imagen de Keylor Navas">
 				<pre><q>Tengo que ir tomando mi lugar poco a poco, me gustó que coreasen mi nombre en el derbi</q></pre>
 			</div>
 			<div>
@@ -148,7 +36,7 @@
 				<i><a href="https://www.marca.com/futbol/futbol-internacional/2018/10/08/5bbb9167468aeb3e668b4621.html" target="_blank" class="article"><strong>Leer artículo completo...</strong></a></i>
 				<br>
 				<br>
-				<a href="https://www.marca.com/" class="enlace-imagen"><img src="benzema.jpg" alt="Imagen de benzema" id="img-benzema"></a>
+				<a href="https://www.marca.com/" class="enlace-imagen"><img src="img/benzema.jpg" alt="Imagen de benzema" class="img-standart"></a>
 			</div>
 			<div>
 				<h2 id="balon-de-oro">Nominados al bálón de oro.</h2>
