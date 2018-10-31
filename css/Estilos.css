@@ -7,12 +7,27 @@
 			width: 80%;
 			margin-left: auto;
 			margin-right: auto;
-
 		}
-		h1{
-			text-align: center;
+		#header{
+			overflow: auto;
+			margin-bottom: 0.5em;
+		}
+		#header ul{
+			list-style-type: none;
+			float: left;
+			position: absolute;
+			top: 1.5em;
+			right: 14em;
+		}
+		#header h1{
+			width: 50%;
+			float: left;
+			margin-left: 0.5em;
 			color: #06193C;
 			margin-top: 0.5em;
+		}
+		#header ul li{
+			display: inline-block;
 		}
 		a{
 			text-decoration: none;
@@ -24,16 +39,38 @@
 			margin-left: 1em;
 			color: #4AAD60;
 			margin-top: 1em;
+			margin-bottom: 1em;
 		}
 		img{
 			margin-left: 4em;
 			margin-bottom: 0.5em;
 			border: 1px solid #D8D5D5;
 		}
-		address{
+		#footer{
 			border: 1px solid black;
 			padding: 0.5em;
 			background-color: #06193C;
+			overflow: auto;
+		}
+		#footer address{
+			float: left;
+		}
+		#footer ul{
+			float: right;
+			list-style-type: none;
+			margin-right: 1em;
+		}
+		#footer li{
+			margin-top: 0.25em;
+			margin-bottom: 0.25em;
+		}
+		#footer li a{
+			border: 0px;
+			color:  #8DB5E0;
+		}
+		#footer li a:hover{
+			font-size: 1em;
+			color: white;
 		}
 		address strong{
 			background-color: #06193C;
@@ -70,11 +107,11 @@
 			text-align: right;
 			margin-bottom: 0em;
 			margin-right: 0.5em;
-			margin-top: 1em;
+			margin-top: 1.5em;
+			clear: both;
 		}
 		.img-standart{
-			width: 630px;
-			height: 354px;
+			width: 80%;
 		}
 		.article{
 			color: #000000;
@@ -89,11 +126,14 @@
 			list-style-type: none;
 			text-align: center;
 			margin-top: 1em;
+			clear: both;
+			padding: 0.25em;
 		}
 		#nav li{
-			display: inline-block;
 			border: 1px solid grey;
 			background-color: #337201;
+			margin-top: 1em;
+			margin-bottom: 1em;
 		}
 		#nav li a{
 			border: 0px;
@@ -109,6 +149,9 @@
 		}
 		ol{
 			margin-left: 3em;
+		}
+		#list{
+			clear: both;
 		}
 		#list h2{
 			margin-bottom: 0.5em;
@@ -131,4 +174,23 @@
 		}
 		video{
 			margin-left: 4em;
+		}
+		#section{
+			width: 20%;
+			float: left;
+		}
+		#aside{
+			width: 80%;
+			float: left;
+		}
+		#aside .text{
+			width: 50%;
+			float: left;
+		}
+		#aside .image{
+			width: 50%;
+			float: left;
+			position: relative;
+			right: 3em;
+			padding-right: 1em;
 		}
