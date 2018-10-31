@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-	<head>
-		<meta charset="UTF-8">
-		<title>SPORT NEWS</title>
-		<link rel="stylesheet" typpe="text/css" href="css/Estilos.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-	</style>
-	</head>
-	<body>
-		<div id="main">
-			<div id="header">
-				<h1 id="titulo-principal"><i class="fas fa-futbol"></i> LIGA SANTANDER</h1>
+<head>
+	<meta charset="UTF-8">
+	<title>SPORT NEWS</title>
+	<link rel="stylesheet" typpe="text/css" href="css/Estilos.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+	<main>
+		<header>
+			<h1 id="titulo-principal"><i class="fas fa-futbol"></i> LIGA SANTANDER</h1>
+			<nav>
 				<ul>
 					<li><a href="Index.html" class="next-page">Noticias fútbol</a></li>
 					<li><a href="Baloncesto.html" class="next-page">Noticias baloncesto</a></li>
 				</ul>
-			</div>
-			<hr>
-			<div id="section">
-				<ul id="nav">
+			</nav>
+		</header>
+		<hr>
+		<section>
+			<nav class="menu">
+				<ul>
 					<li><a href="#noticias-benzema">Noticias de Benzema</a></li>
 					<li><a href="#noticias-keylor">Noticias de Keylor Navas</a></li>
 					<li><a href="#balon-de-oro">Noticias del balón de oro</a></li>
 					<li><a href="Internacional.html">Noticias internacionales</a></li>
 				</ul>
-			</div>
-			<div id="aside">
-				<div>
+			</nav>
+		</section>
+		<aside>
+			<article>
 				<h2>La leyenda del fondo de armario de Barcelona.</h2>
 				<p title="ARTÍCULO">Una mezcla de sorpresa y alegría se apoderó del vestuario visitante del Camp Nou el pasado sábado sobre las tres de la tarde. Mientras se cambiaban para saltar a calentar al césped del estadio del Barcelona, los futbolistas del Athletic Club se enteraron a través de las redes sociales de que el entrenador azulgrana, Ernesto Valverde, iba a dar descanso a Messi y Busquets. La reacción a la noticia fue prácticamente unánime. <em>"Van a ser suplentes los dos mejores del equipo"</em>, <cite>concluyeron los 'leones'</cite>, conscientes de que el 'Txingurri' les estaba haciendo un favor quitando a los dos futbolistas del Barça que mejor interpretan los espacios y, por ende, mejor salen de la presión alta del oponente.</p>
 				<i><a href="http://www.marca.com/futbol/barcelona/2018/10/02/5bb25e7fca4741ad158b4678.html" target="_blank" class="article"><strong>Leer artículo completo...</strong></a></i>
-			</div>
-			<div>
+			</article>
+			<article>
 				<h2 id="noticias-keylor">¿Keylor Navas titular?</h2>
 				<div class="text">
 					<p title="ARTÍCULO">Keylor Navas volverá a ser titular este martes en Moscú ante el CSKA. Según el medio belga 'HLN', el portero de Costa Rica será de la partida en el duelo que enfrenta a los españoles ante los rusos a partir de las 21.00 horas en Luzhniki.</p>
@@ -40,13 +43,13 @@
 					<br>
 				</div>
 				<div class="image">
-					<picture>
-						<source media="(min-width: 650px)" srcset="img/keylor.jpg">
+					<figure>
 						<img src="img/keylor.jpg" alt="Imagen de Keylor Navas" class="img-standart">
-					</picture>
+						<figcaption>Imagen Keylor Navas</figcaption>
+					</figure>
 				</div>
-			</div>
-			<div>
+			</article>
+			<article>
 				<h2 id="balon-de-oro">Nominados al bálón de oro.</h2>
 				<p>El 2018 fue año de Mundial, con lo que los aspirantes al galardón debían hacer un buen papel en Rusia para tener más opciones de conquistar el galardón. ¿Recaerá en Lionel Messi, aunque Argentina cayó en octavos frente a Francia? ¿Revalidará título Cristiano Ronaldo, que también se despidió en Ronda de 16? ¿Tendremos nuevo ganador, rompiendo los diez años de reinado del argentino y el portugués? Kylian Mbappé o Luka Modric tienen algo para decir... Sea como fuere, los nominados se conocieron el lunes 8 de octubre.La lista de los 30 nominados es la siguiente.</p>
 				<ol>
@@ -81,14 +84,14 @@
 					<li>Luis Suárez</li>
 					<li>Raphael Varane</li>
 				</ol>
-			</div>
-			<div>
+			</article>
+			<article>
 				<h2 id="noticias-benzema">Benzema,¿finalista para el balón de oro?</h2>
 				<div class="image">
-					<picture>
-						<source media="(min-width: 650px)" srcset="img/benzema.jpg">
+					<figure>
 						<a href="https://www.marca.com/" class="enlace-imagen"><img src="img/benzema.jpg" alt="Imagen de benzema" class="img-standart"></a>
-					</picture>
+						<figcaption>Imagen Karim Benzema</figcaption>
+					</figure>
 					<video width="630px" height="354px" controls class="img-standart">
 						<source src="img/benzema.mp4" type="video/mp4">
 						Tu navegador no puede reproducir este vídeo.
@@ -98,20 +101,22 @@
 					<p>Bale, Benzema, Courtois, Isco, Marcelo, Modric, Ramos y Varane son los ocho madridistas que optarán al Balón de Oro 2018 después de que se diera a conocer la lista definitiva. Ocho de los 30 candidatos que optar al prestigioso premio que rinde homenaje al mejor futbolista del año, según la revista France Football.El equipo blanco es, con absoluta claridad, el gran protagonista de la lista definitiva, sin incluir a Cristiano Ronaldo, que opta de nuevo a este premio por sus éxitos con el Real Madrid pese a militar en la Juventus en estos momentos. La victoria en la Champions por tercera temporada consecutiva y la presencia de jugadores entre los finalistas y vencedores del Mundial de Rusia han decantado la balanza a la hora de elegir un gran número de jugadores del Madrid.</p>
 					<i><a href="https://www.marca.com/futbol/futbol-internacional/2018/10/08/5bbb9167468aeb3e668b4621.html" target="_blank" class="article"><strong>Leer artículo completo...</strong></a></i>
 				</div>
-			</div>
+			</article>
 			<div class="right-align">
 				<a href="#titulo-principal" class="next-page"><strong>Volver arriba...</strong></a>
 			</div>
 			<br>
-			</div>
-			<div id="footer">
-				<address><strong><a href="https://github.com/raulrp3" target="_blank">Creado por Raúl Ramírez</a></strong></address>
+		</aside>
+		<footer>
+			<address><strong><a href="https://github.com/raulrp3" target="_blank">Creado por Raúl Ramírez</a></strong></address>
+			<nav>
 				<ul>
-					<li><a href="https://github.com/" target="_blacnk"><i class="fab fa-github"></i> Github</a></li>
-					<li><a href="https://es-es.facebook.com/" target="_blacnk"><i class="fab fa-facebook"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/?lang=es" target="_blacnk"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+					<li><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i> Github</a></li>
+					<li><a href="https://es-es.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+					<li><a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></li>
 				</ul>
-			</div>
-		</div>
-	</body>
+			</nav>
+		</footer>
+	</main>
+</body>
 </html>
